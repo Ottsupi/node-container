@@ -53,7 +53,7 @@ if [[ "$DEV_CONTAINER_GID" == "$(id -g)" ]]; then
     echo "  ✓  DEV_CONTAINER_GID matches current user's group id"
 else
     echo "  ✗  DEV_CONTAINER_UID does NOT match current user's group id"
-    SOLUTIONS+=("Get user id with the command 'id -g'")
+    SOLUTIONS+=("Get user group id with the command 'id -g'")
 fi
 
 
