@@ -3,7 +3,6 @@
 This is a simple starter for a Node.js Dev Container
 
 ## Getting started
-0. If working in windows, make sure to use this in WSL
 1. Manually configure your own `.env` file from `.env.sample`
 2. Run `./release.dev.sh` to check and generate the required files
 3. Open in VS Code using Dev Containers
