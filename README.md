@@ -7,7 +7,8 @@ This is a simple starter for a Node.js Dev Container
 1. Manually configure your own `.env` file from `.env.sample`
 2. Run `./release.dev.sh` to check and generate the required files
 3. Open in VS Code using Dev Containers
-    - Altenatively, run `docker compose -f compose.dev.yaml up`
+    - `Ctrl + Shift + P` type "Reopen in Dev Container"
+    - Alternatively, run `docker compose -f compose.dev.yaml up`
       to start the development environment. Then, attach your editor
       to the `${PROJECT_NAME}-develop` container.
 4. Initialize the database
