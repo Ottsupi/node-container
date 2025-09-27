@@ -10,29 +10,7 @@ This is a simple starter for a Node.js Dev Container
     - Alternatively, run `docker compose -f compose.dev.yaml up`
       to start the development environment. Then, attach your editor
       to the `${PROJECT_NAME}-develop` container.
-4. Initialize the database
-    ```
-    # Get the id of the postgres container
-    docker ps
-
-    # Go inside the container
-    docker exec -it <container_id> bash
-
-    # Connect to the database
-    psql -U <app_user> -d <app_db>
-
-    # Create a table
-    CREATE TABLE Persons (
-        PersonID int,
-        LastName varchar(255),
-        FirstName varchar(255),
-        Age int
-    );
-
-    # Check if table is created
-    \dt
-    ```
-5. Install the packages
+4. Install the packages
     ```
     npm install
     ```
