@@ -16,12 +16,12 @@ services:
     ports:
       - 3000:3000
 
-  database:
-    image: postgres:17
-    env_file:
-      - ./.env
-    volumes:
-      - database-data:/var/lib/postgresql/data
+  # database:
+  #   image: postgres:17
+  #   env_file:
+  #     - ./.env
+  #   volumes:
+  #     - database-data:/var/lib/postgresql/data
 
-volumes:
-  database-data: {}
+# volumes:
+#   database-data: {}
